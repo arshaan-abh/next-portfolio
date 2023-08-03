@@ -1,0 +1,9 @@
+@import "variables.module";
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: darken($color-primary, 10%);
+  background-image: radial-gradient(100vw circle at left top, transparentize($color-secondary, .5), ease-in-out, transparent),
+  radial-gradient(100vh circle at right bottom, transparentize($color-tertiary, .5), ease-in-out, transparent);
+}
