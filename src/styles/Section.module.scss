@@ -1,0 +1,12 @@
+@import 'variables.module';
+
+.section {
+  width: 1024px;
+  height: 512px;
+  border-radius: $border-radius;
+  background-color: #ffffff20;
+  box-shadow: 0 0 0 3px #ffffff20 inset;
+  background-image: radial-gradient(512px circle at left top, transparentize($color-secondary, .5), ease-in-out, transparent),
+  radial-gradient(512px circle at right bottom, transparentize($color-tertiary, .5), ease-in-out, transparent);
+  background-repeat: no-repeat;
+}

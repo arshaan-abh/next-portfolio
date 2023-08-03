@@ -1,4 +1,7 @@
-@import "variables.module";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'variables.module';
 
 body {
   margin: 0;
